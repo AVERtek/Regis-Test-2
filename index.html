@@ -300,8 +300,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   model-viewer[ar-tracking="not-tracking"] > #ar-failure {
     display: block;
    
- <!--model-viewer > #ar-prompt > img {
-    animation: circle 4s linear infinite; -->
+ model-viewer > #ar-prompt > img {
+    animation: circle 4s linear infinite;
   }
 
   model-viewer > #ar-failure {
@@ -322,6 +322,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     overflow: hidden;
     position: absolute;
     bottom: 16px;
+    border: 15px solid rgb(0,0,0,0);
   }
 
   .slides {
@@ -360,7 +361,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
 </style>
-</div>               
+<!-- </div>-->               
                      
    <div class="card1">
     <model-viewer id="model-viewer" loading="eager"
